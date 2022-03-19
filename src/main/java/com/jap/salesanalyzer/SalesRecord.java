@@ -89,7 +89,9 @@ public class SalesRecord {
     public String toString() {
         // The record must be returned in the below format
         // SalesRecord{date=xxx, customer_id=xx, product_category=xx, payment_method='xxx', amount=xx, time_on_site=xx, clicks_in_site=xx}
-        return null;
+        return "SalesRecord{date=" + date + ", customer_id=" + customer_id + ", product_category=" + product_category
+                + ", payment_method='" + payment_method + "', amount=" + amount + ", time_on_site=" + time_on_site
+                + ", clicks_in_site=" + clicks_in_site + "}";
 
     }
 }
