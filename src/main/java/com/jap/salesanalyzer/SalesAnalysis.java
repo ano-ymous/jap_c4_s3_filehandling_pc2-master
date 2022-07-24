@@ -5,12 +5,10 @@ import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-/**
-This class performs the file reading and stores the data in SalesRecord array
- */
 public class SalesAnalysis {
     // This method reads a file and returns the count of lines in the file
     // omit any headers present in the file
+    //git trail
      public int countOfSalesRecords(String fileName){
          int recordCount = -1;
          File file;
